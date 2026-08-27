@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "EpCanDribenk"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of EpCanDribenk."
   spec.homepage     = "https://github.com/girhubuser/EpCanDribenk.git"
   spec.license      = "MIT"
-  spec.author             = { "ECD" => "hyzhaocan@gmail.com" }
+  spec.author       = { "ECD" => "hyzhaocan@gmail.com" }
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/girhubuser/EpCanDribenk.git", :tag => spec.version.to_s }
   spec.source_files  = "Sources/EpCanDribenk/**/*.swift"
