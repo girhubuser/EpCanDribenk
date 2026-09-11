@@ -10,13 +10,11 @@ class ECDCoverMaintain {
     }
     
     func oney() -> String {
-        let scale = UIScreen.main.scale
-        return "\(Int(UIScreen.main.bounds.size.width * scale))"
+        return "\(Int(UIScreen.main.bounds.size.width))"
     }
     
     func situation() -> String {
-        let scale = UIScreen.main.scale
-        return "\(Int(UIScreen.main.bounds.size.height * scale))"
+        return "\(Int(UIScreen.main.bounds.size.height))"
     }
     
     func suand() -> String {
